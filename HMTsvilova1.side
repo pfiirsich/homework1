@@ -1,0 +1,501 @@
+{
+  "id": "1ebe946f-0b6e-4cd4-adf2-293da046a4ed",
+  "version": "2.0",
+  "name": "HMTsvilova",
+  "url": "https://shop.silpo.ua/?gclid=Cj0KCQjwxYOiBhC9ARIsANiEIfaicCpcC1y3v_riRsHi7tX5JcYOK1DWVViJkPxOA1joJWZnR9_zSy0aAmaLEALw_wcB",
+  "tests": [{
+    "id": "a767fb67-7903-405b-afeb-8f9d766d3037",
+    "name": "Untitled",
+    "commands": []
+  }, {
+    "id": "5ce5de27-a0e3-4fb8-9e98-c477b4c5fd50",
+    "name": "test1",
+    "commands": [{
+      "id": "91919f0f-b400-47fe-ad8d-7eb4088aecda",
+      "comment": "",
+      "command": "open",
+      "target": "https://shop.silpo.ua/?gclid=Cj0KCQjwxYOiBhC9ARIsANiEIfaicCpcC1y3v_riRsHi7tX5JcYOK1DWVViJkPxOA1joJWZnR9_zSy0aAmaLEALw_wcB",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "711ab2ba-46b3-4be9-8edc-3f9945d555cc",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1440x780",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bfd8bbe4-9a3d-4937-8c60-c2a2980ed18b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.all-product_btn > span",
+      "targets": [
+        ["css=.all-product_btn > span", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/header/div[2]/div/div/div[2]/span", "xpath:idRelative"],
+        ["xpath=//span", "xpath:position"],
+        ["xpath=//span[contains(.,'Всі товари')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4b685934-312f-4adb-a0ef-6926d0119244",
+      "comment": "",
+      "command": "click",
+      "target": "css=.active:nth-child(3) > div:nth-child(1)",
+      "targets": [
+        ["css=.active:nth-child(3) > div:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/header/div[3]/div/div/div[2]/div/div/ul/li/div/div/ul/li[2]/div/ul/li[3]/div", "xpath:idRelative"],
+        ["xpath=//li[3]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c9a6a3bc-f06a-4f38-97cb-563810612b1b",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,443)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "feed1a3d-9b8d-4294-8306-e42151ddd000",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,1030)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8aac5223-c91d-49e5-aed3-9c72197edb12",
+      "comment": "",
+      "command": "click",
+      "target": "css=.lazyload-wrapper:nth-child(1) .new-add-to-cart-round",
+      "targets": [
+        ["css=.lazyload-wrapper:nth-child(1) .new-add-to-cart-round", "css:finder"],
+        ["xpath=//div[@id='id-b01cc0e8-74ff-0f66-bcc9-9e3596616ba4']/div/div[2]/div/ul/div/li/div/div[2]/div/div/div", "xpath:idRelative"],
+        ["xpath=//div/div[2]/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bc9f92d9-8f0f-4535-82b4-f53d64f39a8c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.plus",
+      "targets": [
+        ["css=.plus", "css:finder"],
+        ["xpath=//div[@id='id-b01cc0e8-74ff-0f66-bcc9-9e3596616ba4']/div/div[2]/div/ul/div/li/div/div[2]/div/div/div/span[3]", "xpath:idRelative"],
+        ["xpath=//span[3]", "xpath:position"],
+        ["xpath=//span[contains(.,'+')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c9d1ae92-1b09-4023-a6b9-20496329e1bf",
+      "comment": "",
+      "command": "click",
+      "target": "css=.lazyload-wrapper:nth-child(1) .product-list-item__control",
+      "targets": [
+        ["css=.lazyload-wrapper:nth-child(1) .product-list-item__control", "css:finder"],
+        ["xpath=//div[@id='id-b01cc0e8-74ff-0f66-bcc9-9e3596616ba4']/div/div[2]/div/ul/div/li/div/div[2]/div/div", "xpath:idRelative"],
+        ["xpath=//li/div/div[2]/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7e9a491a-a930-4cf7-8a34-3592cea84830",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//div[@id='id-b01cc0e8-74ff-0f66-bcc9-9e3596616ba4']/div/div[2]/div/ul/div/li/div/div[2]/div/div",
+      "targets": [
+        ["css=.lazyload-wrapper:nth-child(1) .product-list-item__control", "css:finder"],
+        ["xpath=//div[@id='id-b01cc0e8-74ff-0f66-bcc9-9e3596616ba4']/div/div[2]/div/ul/div/li/div/div[2]/div/div", "xpath:idRelative"],
+        ["xpath=//li/div/div[2]/div/div", "xpath:position"]
+      ],
+      "value": "Гриби печерицi"
+    }, {
+      "id": "35e298b4-8b83-49ce-a695-37333edff25c",
+      "comment": "",
+      "command": "store",
+      "target": "Всі товари",
+      "targets": [],
+      "value": "message"
+    }, {
+      "id": "db27e51b-e4d1-4c52-bdc6-c23711fb2e96",
+      "comment": "",
+      "command": "echo",
+      "target": "$(message)",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "c0aef1b1-cdee-405b-8094-5e6d4905feca",
+    "name": "test2",
+    "commands": [{
+      "id": "ce1ae71b-d44d-43b7-8990-470158e8c52f",
+      "comment": "",
+      "command": "open",
+      "target": "https://shop.silpo.ua/?gclid=Cj0KCQjwxYOiBhC9ARIsANiEIfaicCpcC1y3v_riRsHi7tX5JcYOK1DWVViJkPxOA1joJWZnR9_zSy0aAmaLEALw_wcB",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ed4e48cc-0854-4c27-8b10-e6b3122604ed",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1440x780",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0aa6fc3e-e187-4f82-a237-8724152f7071",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Солодка продукція ТМ Milka",
+      "targets": [
+        ["linkText=Солодка продукція ТМ Milka", "linkText"],
+        ["css=.promotion-list > li:nth-child(6) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Солодка продукція ТМ Milka')]", "xpath:link"],
+        ["xpath=//div[@id='root']/div/div/header/div[3]/nav/ul/li[6]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/sets/milka')]", "xpath:href"],
+        ["xpath=//li[6]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Солодка продукція ТМ Milka')]", "xpath:innerText"]
+      ],
+      "value": "Солодка продукція ТМ Milka"
+    }, {
+      "id": "461beb18-335a-406f-b042-5b6c588c85b7",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,581)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e06c7ef3-213c-4072-ad41-fd042aa251c0",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,1054)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c48407c9-2c4d-4a6a-b670-5739be812756",
+      "comment": "",
+      "command": "click",
+      "target": "css=.lazyload-wrapper:nth-child(6) .image-content-wrapper svg",
+      "targets": [
+        ["css=.lazyload-wrapper:nth-child(6) .image-content-wrapper svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "f4ad4e66-40ac-4669-9dac-9508528d80d1",
+      "comment": "",
+      "command": "click",
+      "target": "css=.plus",
+      "targets": [
+        ["css=.plus", "css:finder"],
+        ["xpath=//div[@id='id-b01cc0e8-74ff-0f66-bcc9-9e3596616ba4']/div/div[2]/div/ul/div[6]/li/div/div[2]/div/div/div/span[3]", "xpath:idRelative"],
+        ["xpath=//span[3]", "xpath:position"],
+        ["xpath=//span[contains(.,'+')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0a6c40f4-1f13-4eb3-8fd6-7faf41f8c92b",
+      "comment": "",
+      "command": "click",
+      "target": "id=id-b01cc0e8-74ff-0f66-bcc9-9e3596616ba4",
+      "targets": [
+        ["id=id-b01cc0e8-74ff-0f66-bcc9-9e3596616ba4", "id"],
+        ["css=#id-b01cc0e8-74ff-0f66-bcc9-9e3596616ba4", "css:finder"],
+        ["xpath=//div[@id='id-b01cc0e8-74ff-0f66-bcc9-9e3596616ba4']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div/div", "xpath:idRelative"],
+        ["xpath=//body/div/div/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "50f91ae7-b55c-4432-89ca-9efac6d79735",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//div[@id='id-b01cc0e8-74ff-0f66-bcc9-9e3596616ba4']/div/div[2]/div/ul/div[5]/li/div/div[2]/div/div/div",
+      "targets": [
+        ["css=.lazyload-wrapper:nth-child(5) .new-add-to-cart-round", "css:finder"],
+        ["xpath=//div[@id='id-b01cc0e8-74ff-0f66-bcc9-9e3596616ba4']/div/div[2]/div/ul/div[5]/li/div/div[2]/div/div/div", "xpath:idRelative"],
+        ["xpath=//div[5]/li/div/div[2]/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e9b2d1be-958a-4b3d-bb10-611ee5a6ed91",
+      "comment": "",
+      "command": "click",
+      "target": "css=.lazyload-wrapper:nth-child(5) .plus",
+      "targets": [
+        ["css=.lazyload-wrapper:nth-child(5) .plus", "css:finder"],
+        ["xpath=//div[@id='id-b01cc0e8-74ff-0f66-bcc9-9e3596616ba4']/div/div[2]/div/ul/div[5]/li/div/div[2]/div/div/div/span[3]", "xpath:idRelative"],
+        ["xpath=//span[3]", "xpath:position"],
+        ["xpath=//span[contains(.,'+')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f7f1eb33-2ccd-49f4-9781-2a7f1d0d994c",
+      "comment": "",
+      "command": "store",
+      "target": "Солодка продукція ТМ Milka",
+      "targets": [],
+      "value": "message"
+    }, {
+      "id": "88f33da0-1baf-43c8-9f40-23516592a1d7",
+      "comment": "",
+      "command": "echo",
+      "target": "$(message)",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "d23049b1-d804-4525-9373-3df673ad37de",
+    "name": "test3",
+    "commands": [{
+      "id": "f91341ef-0a8e-43d4-b733-6079e0ac7d42",
+      "comment": "",
+      "command": "open",
+      "target": "https://shop.silpo.ua/?gclid=Cj0KCQjwxYOiBhC9ARIsANiEIfaicCpcC1y3v_riRsHi7tX5JcYOK1DWVViJkPxOA1joJWZnR9_zSy0aAmaLEALw_wcB",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "35bf879e-ad15-467e-8a18-65582b553760",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1440x780",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "792794a8-2a41-4b29-a686-7e1c561aeddf",
+      "comment": "",
+      "command": "click",
+      "target": "css=.location span",
+      "targets": [
+        ["css=.location span", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/header/div[2]/div/div/ul/li[3]/div[2]/span", "xpath:idRelative"],
+        ["xpath=//li[3]/div[2]/span", "xpath:position"]
+      ],
+      "value": "Самовивіз:"
+    }, {
+      "id": "d9837800-f58f-4efd-a86f-05f51034d0c3",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "cb9ac024-719d-45f6-9fad-98a91fcaf39f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.store-select__autocomplete-holder-store path",
+      "targets": [
+        ["css=.store-select__autocomplete-holder-store path", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "cdd45933-27f4-44d5-b6b2-701aa4e18813",
+      "comment": "",
+      "command": "mouseDownAt",
+      "target": "css=.autocomplete-menu-holder",
+      "targets": [
+        ["css=.autocomplete-menu-holder", "css:finder"],
+        ["xpath=//div[2]/div[2]/div[4]/div[2]", "xpath:position"]
+      ],
+      "value": "361.5,26"
+    }, {
+      "id": "ab325990-c7e5-42d8-ab03-9eb60aee54ca",
+      "comment": "",
+      "command": "mouseMoveAt",
+      "target": "css=.autocomplete-menu-holder",
+      "targets": [
+        ["css=.autocomplete-menu-holder", "css:finder"],
+        ["xpath=//div[2]/div[2]/div[4]/div[2]", "xpath:position"]
+      ],
+      "value": "361.5,26"
+    }, {
+      "id": "cb443f5b-840c-41b2-bd6d-e82641099b21",
+      "comment": "",
+      "command": "mouseUpAt",
+      "target": "css=.autocomplete-menu-holder",
+      "targets": [
+        ["css=.autocomplete-menu-holder", "css:finder"],
+        ["xpath=//div[2]/div[2]/div[4]/div[2]", "xpath:position"]
+      ],
+      "value": "361.5,26"
+    }, {
+      "id": "5311f6bd-a40a-4901-a3ae-6225567553cf",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//div[2]/div/div[13]",
+      "targets": [
+        ["css=.store-select__autocomplete-item:nth-child(13)", "css:finder"],
+        ["xpath=//div[2]/div/div[13]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c3ac78e9-e6ba-46e9-9f24-265e2be88cd3",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-primary",
+      "targets": [
+        ["css=.btn-primary", "css:finder"],
+        ["xpath=(//button[@type='button'])[8]", "xpath:attributes"],
+        ["xpath=//div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Підтвердити')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "92f848f9-19ea-4d1d-ba08-155915e66173",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.footer-list:nth-child(2) > .footer-list-item:nth-child(4) span",
+      "targets": [
+        ["css=.footer-list:nth-child(2) > .footer-list-item:nth-child(4) span", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/footer/div/div/div[2]/div/ul[2]/li[4]/a/span", "xpath:idRelative"],
+        ["xpath=//ul[2]/li[4]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Правила програми \"Власний рахунок\"')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "94ddb858-b923-4246-9e17-1e180bebfd15",
+      "comment": "",
+      "command": "store",
+      "target": "Caмовивіз",
+      "targets": [],
+      "value": "message"
+    }, {
+      "id": "d495634f-7db7-466b-a6b4-ea86c1c8d84f",
+      "comment": "",
+      "command": "echo",
+      "target": "$(message)",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "82eace33-c92a-462f-beef-e8d5541a4521",
+    "name": "test4",
+    "commands": [{
+      "id": "93185baa-1c47-4712-be65-82c69878344f",
+      "comment": "",
+      "command": "open",
+      "target": "https://shop.silpo.ua/?gclid=Cj0KCQjwxYOiBhC9ARIsANiEIfaicCpcC1y3v_riRsHi7tX5JcYOK1DWVViJkPxOA1joJWZnR9_zSy0aAmaLEALw_wcB#error-message",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "62e894ec-2b68-4d5b-bd68-011e901661c0",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1440x780",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "51d2adb6-c68e-4751-8ce3-138d5eac1d30",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn > span",
+      "targets": [
+        ["css=.btn > span", "css:finder"],
+        ["xpath=//button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Зрозуміло')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "459443ca-036a-4a4d-8b47-de18cd891a1c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.icon-menu path",
+      "targets": [
+        ["css=.icon-menu path", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "1909cca6-5b69-4efc-a089-4e5ffeaf4d9b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.all-offers",
+      "targets": [
+        ["css=.all-offers", "css:finder"],
+        ["xpath=//aside[@id='sidebar']/div[2]/nav/li[3]", "xpath:idRelative"],
+        ["xpath=//nav/li[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c33c6efc-da78-4176-a3fd-6ac9ab82145c",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.all-offers span",
+      "targets": [
+        ["css=.all-offers span", "css:finder"],
+        ["xpath=//aside[@id='sidebar']/div[2]/nav/li[3]/a/span", "xpath:idRelative"],
+        ["xpath=//nav/li[3]/a/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a751a026-d8aa-403f-a523-a4710a27174c",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.all-offers span",
+      "targets": [
+        ["css=.all-offers span", "css:finder"],
+        ["xpath=//aside[@id='sidebar']/div[2]/nav/li[3]/a/span", "xpath:idRelative"],
+        ["xpath=//nav/li[3]/a/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fe06c793-9084-4d73-9b5a-bdb930e669c1",
+      "comment": "",
+      "command": "click",
+      "target": "css=.react-responsive-modal-container",
+      "targets": [
+        ["css=.react-responsive-modal-container", "css:finder"],
+        ["xpath=//body/div[3]/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "359897c1-b947-4abf-9da2-2c55dd9860eb",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-block",
+      "targets": [
+        ["css=.btn-block", "css:finder"],
+        ["xpath=(//button[@type='button'])[8]", "xpath:attributes"],
+        ["xpath=//div[3]/div/div[2]/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Зрозуміло')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e316c9e8-f46e-4c7f-95af-552d23c91d75",
+      "comment": "",
+      "command": "click",
+      "target": "css=.sidebar-background",
+      "targets": [
+        ["css=.sidebar-background", "css:finder"],
+        ["xpath=//aside[@id='sidebar']/div", "xpath:idRelative"],
+        ["xpath=//aside/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bb60eebf-3ed9-4c76-9835-ab87eeb8ea57",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "12652400-2c5d-48fa-bf53-0bf877b90335",
+      "comment": "",
+      "command": "store",
+      "target": "menu",
+      "targets": [],
+      "value": "message"
+    }, {
+      "id": "d4d9e30a-5a36-456b-843b-9b9afb5edf87",
+      "comment": "",
+      "command": "echo",
+      "target": "$(message)",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "8a0cd004-bd4e-43e8-a4cb-f0a8d1ca55f8",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["a767fb67-7903-405b-afeb-8f9d766d3037"]
+  }],
+  "urls": ["https://shop.silpo.ua/?gclid=Cj0KCQjwxYOiBhC9ARIsANiEIfaicCpcC1y3v_riRsHi7tX5JcYOK1DWVViJkPxOA1joJWZnR9_zSy0aAmaLEALw_wcB"],
+  "plugins": []
+}
